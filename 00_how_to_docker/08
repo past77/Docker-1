@@ -1,0 +1,8 @@
+##firstly install debian container
+docker run -ti --rm debian
+##secondary install Ubuntu packages with gcc, git, make and others tools
+apt-get update
+apt-get upgrade -y
+apt-get install -y build-essential git
+ 
+
